@@ -68,15 +68,62 @@ while activo:
     
     else:
         print("Opción inválida. Intente nuevamente.")
+
 #Calcular la raíz cuadrada por aproximación (método babilónico).
+
+def raiz_babilonica(n, aproximacion_inicial=1.0, iteraciones=10):
+    x = aproximacion_inicial
+    for i in range(iteraciones):
+        x = (x + n / x) / 2
+        print(f"Iteración {i+1}: {x}")
+    return x 
+n = float(input("Ingrese un número: "))
+raiz = raiz_babilonica(n)
+print(f"La raíz cuadrada de {n} es aproximadamente {raiz}")
 
 #Contar dígitos de un número entero (ej: 456 → 3).
 
+print("Ingrese un número entero: ")
+num = int(input())
+cont = 0
+while num > 0:
+    num = num // 10
+    cont += 1
+print(f"El número tiene {cont} dígitos")
+
 #Generar la secuencia de Fibonacci hasta un límite.
+limite = int(input("Ingrese el límite de la secuencia de Fibonacci: "))
+a, b = 0, 1
+while a < limite:
+    print(a, end=" ")
+    a, b = b, a + b
+print()
+print("Secuencia de Fibonacci hasta el límite:", limite)
 
-#Encontrar números primos en un rango dado.
+#Encontrar números primos en un rango dado. 
+def es_primo(numero):
+    if numero < 2:
+        return False
+    for i in range(2, int(numero**0.5) + 1):
+        if numero % i == 0:
+            return False
+    return True
+inicio = int(input("Ingrese el número de inicio del rango: "))
+fin = int(input("Ingrese el número de fin del rango: "))
+print("Números primos en el rango",inicio, "a",fin, ":")
+for numero in range(inicio,fin + 1):
+    if es_primo(numero):
+        print(numero)
+print("rango final")
 
-#Simular un temporizador (contar regresivamente desde N).
+#Simular un temporizador (contar regresivamente desde n).
+print("Programa para contar regresivamente desde n")
+n=int(input("ingrese el numero: "))
+print("Contando regresivamente desde n")
+while n>=0:
+    print(n)
+    n=n-1
+print("Fin")
 
 #Leer archivos línea por línea hasta fin de archivo.
 

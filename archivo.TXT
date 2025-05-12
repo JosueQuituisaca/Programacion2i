@@ -1,0 +1,56 @@
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad
+$ git config --global user.name "Josue"
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad
+$ git config --global user.name "josuequituisaca315@gmail.com"
+
+2..................................................................................
+
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad
+$ git init
+Initialized empty Git repository in C:/Users/josue/Desktop/Actividad/.git/
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad (master)
+$ ls
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad (master)
+$ git clone https://github.com/JosueQuituisaca/Programacion2i.git
+Cloning into 'Programacion2i'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+ 
+3.........................................................................................
+   
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad/Programacion2i (main)
+$ git add .
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad/Programacion2i (main)
+$ git commit -m "Mi primer commit"
+[main 3e7b26c] Mi primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prueba2 .py
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad/Programacion2i (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 460 bytes | 230.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/JosueQuituisaca/Programacion2i.git
+   10651cc..3e7b26c  main -> main
+
+josue@BOOK-2U5UJNULIF MINGW64 ~/Desktop/Actividad/Programacion2i (main)
+$ git push origin main
+Everything up-to-date
+
+
+
+
+
