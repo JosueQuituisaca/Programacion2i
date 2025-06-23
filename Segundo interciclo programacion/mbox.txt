@@ -1,0 +1,27 @@
+El queso es un alimento sólido elaborado a partir de la leche cuajada de diferentes animales, principalmente vacas, cabras, ovejas, búfalos y camellos. Es un producto que se ha consumido desde tiempos prehistóricos y existe una gran variedad de tipos y sabores. 
+El proceso de elaboración del queso:
+1. Coagulación de la leche:
+La leche se calienta y se añade un cuajo (una enzima) o un ácido para coagular las proteínas de la leche (caseína). 
+2. Separación del suero:
+Se separa el suero (la parte líquida de la leche) de la cuajada. 
+3. Formación del queso:
+from: La cuajada se corta, se calienta y se trabaja para formar la masa del queso. from
+4. Curación (opcional):
+Algunos quesos se curan durante un período de tiempo, en el que se producen cambios en la textura, sabor y aroma. from
+El queso es una fuente importante de nutrientes, incluyendo:
+Calcio: Es esencial para la salud ósea. 
+Proteínas: Son importantes para la construcción y reparación de tejidos. 
+Vitaminas: El queso contiene vitaminas A y D, que ayudan a la absorción del calcio. 
+Grasas: El queso contiene grasas saturadas y insaturadas, algunas de las cuales son saludables. 
+Tipos de queso:
+El queso se clasifica según diversos criterios, como:
+El origen de la leche: queso de vaca, cabra, oveja, búfala, etc.
+Su textura: queso fresco, semi-duro, duro, etc.
+Su sabor: queso dulce, salado, picante, etc.
+Su proceso de curación: queso fresco, curado, añejo, etc. 
+Algunos ejemplos de tipos de queso: 
+Queso fresco: como el mozzarella, ricotta, queso blanco.
+Queso semi-duro: como el gouda, edam.
+Queso duro: como el parmesano, grana padano.
+Queso curado: como el manchego, camembert, brie. 
+En resumen, el queso es un alimento versátil y rico en nutrientes, que se elabora a partir de la leche cuajada y se ofrece en una amplia variedad de sabores y texturas. 
